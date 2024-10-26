@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/img/portfolio_image.png" />
+    <!--FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sujal Verma</title>
+</head>
+
+<body>
+    <!--Header Design-->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active1">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Skills/Achievements</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!--Home Section Design-->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, Myself</h3>
+            <h1>Sujal Verma</h1>
+            <h3>And I'm a <span class="multiple-text"> </span></h3>
+            <div id="description-box">
+                <p>
+                    Welcome to my portfolio! I'm a final year undergraduate at<em> <b>Indian Institute of Technology
+                            Roorkee</b></em>, specializing in Applied Mathematics. I've
+                    developed a strong passion for <em> problem-solving, probability & statistics, software
+                        development, ans data science</em>. Within these areas, I've undertaken
+                    diverse projects and
+                    gained valuable experiences that showcase my dedication and expertise. <br>Through this portfolio, I
+                    aim to provide a glimpse into my journey and highlight the projects I've worked on, demonstrating my
+                    skills and
+                    commitment to these fields. Whether it's analyzing complex datasets, developing innovative software
+                    solutions, I'm excited to share my
+                    experiences and contributions with you. Join me as I navigate through my academic and professional
+                    endeavors, showcasing my enthusiasm and proficiency in these fascinating domains.
+                </p>
+                <span id="span1"></span>
+            </div>
+            <a href="https://drive.google.com/file/d/1ccqhpbDo6711CJID1pfpkbgEgdWl6ZiF/view?usp=sharing" target="_blank"
+                class="btn">Download CV</a>
+        </div>
+        <div class="home-img">
+            <img src="img/profile.jpg" alt="MyImg" style="width: 500px; height: 500px; border-radius: 50%; object-fit: cover;">
+        </div>
+    </section>
+
+    <!--About Design-->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="img/about_pic.jpg" style="border-radius:10%;" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <!-- <h3>Back</h3> -->
+            <p>
+                Hello Everyone!
+                <br> <br>
+                Welcome to my webpage! I'm currently a final year undergraduate at <em> <b>Indian Institute of Technology
+                        Roorkee</b></em>, doing major in Applied Mathematics,
+                with a strong inclination towards problem-solving, probability and statistics, software development,
+                data science, and quantitative finance. My journey encompasses a variety of projects and experiences
+                that underscore my dedication and proficiency in these domains.
+            </p>
+            <span class="mybox1" id="mybox1id">
+                <p>
+                    <u> Programming Interest: </u>
+                    <br>
+                    I started my coding journey in C++ in 1st year and afterward do proficiency in Data Structures and
+                    Algorithm and
+                    become proficient in languages such as C++, Python, Java, HTML, CSS, JavaScript , NodeJS, 
+                    ExpressJS and NextJS. I've honed my skills
+                    in developing robust software solutions and web applications. <br>
+                    However, my aspirations extend beyond traditional boundaries. I am keen on paralleling my
+                    technological
+                    expertise with advancements in the field of data science, with a comprehensive understanding of
+                    machine
+                    learning, data analytics, and more. My goal is to leverage these interdisciplinary skills to tackle
+                    complex challenges and drive innovation.
+                    Join me on this journey as I navigate through the realms of mathematics, technology, and data
+                    science,
+                    showcasing my passion and proficiency every step of the way.
+                </p>
+            </span>
+            <button id="mybuttonid" onclick="changeReadMore1()">
+                Read More
+            </button>
+            <!-- <a href="#" class="btn">Read More</a> -->
+        </div>
+    </section>
+
+    <!--Services Section Design-->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Skills</span> / <span>Academic</span> Achievements </h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class="fa-solid fa-code"></i>
+                <h3>Skills</h3>
+                <p>
+                    <b> <u>Coding Languages</u> :</b> C++, Python, HTML, CSS, JavaScript, ReactJS, NodeJS, NextJS
+                    ExpressJS. 
+                    <br>
+                    <b> <u>DataBases </u> :</b> MongoDB, SQL.
+                    <br
+                    <b> <u>Dev Tools </u> :</b> Git, Github, VS Code, Vercel
+                </p>
+                <!-- <a href="#" class="btn"> Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>Courses & Certificate</h3>
+                <p>
+                <ul>
+                    <li>Google Data Analytics</li>
+                    <br>
+                    <li>Google Advances Data Analytics</li><br>
+                    <li>DataBase Management System</li><br>
+
+                </ul>
+                </p>
+                <!-- <a href="#" class="btn"> Read More</a> -->
+            </div>
+            <div class="services-box">
+                <i class="fa-solid fa-award"></i>
+                <h3>Academic Achievements</h3>
+                <p class="acad">
+                <ul>
+                    <span class="mybox2" id="mybox2id">
+                        
+                        <li> Secured <b>83% </b>in All India Senior School Certificate Examination (Std 12)</li>
+                    </span>
+                </ul>
+                </p>
+                
+                <button id="mybuttonid2" onclick="changeReadMore2()">
+                    Read More
+                </button>
+
+                <!-- <a href="#" class="btn"> Read More</a> -->
+            </div>
+        </div>
+    </section>
+
+    <!--Portfolio Section Design-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="img/img1.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Data Analytics</h4>
+                    <p>UPLOADING SOON !</p>
+                    <i class="fa-solid fa-up-right-from-square"></i>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img2.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>React Blog Website </h4>
+                    <p>Frontend Development</p>
+                     <a href="" target="_blank"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img3.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Movie-Todo-List</h4>
+                    <p>Frontend Development</p>
+                    <a href="https://movie-todo-list.vercel.app/" target="_blank"><i class="fa-solid fa-up-right-from-square"> </i></a> 
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="img/img4.jpeg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Youtube Backend</h4>
+                    <p>Backend Development</p>
+                    <a href="https://github.com/vermasujal841/youtube-backend" target="_blank"><i class="fa-solid fa-up-right-from-square"> </i></a> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact Section Design-->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form>
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name" required>
+                <input type="email" id="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" id="phone" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subbject" required>
+            </div>
+            <textarea id="msg" name="" id="" cols="30" rows="10" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+
+        <div class="social-media">
+            <a href="https://www.facebook.com/sujal.verma.3701/" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="https://x.com/SujalVe83391499" target="_blank"><i
+                    class="fa-brands fa-x-twitter"></i></a>
+            <a href="https://www.instagram.com/vermasujal_847/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/sujal-verma-042658201/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/vermasujal841" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </section>
+
+    <!--Footer Design-->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Made with &hearts; by<a href="https://github.com/vermasujal841" target="_blank"> @sujal_v841</a> | All
+                Rights Reserved.</p>
+        </div>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <!--SMTP JS-->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <!--Scroll Reveal JS-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--typed JS-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!--Main JS-->
+    <script src="main.js"></script>
+</body>
+
+</html>
